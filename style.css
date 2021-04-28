@@ -1,0 +1,155 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+body{
+	background-color: black;
+	color: white;
+	width: 1450px;
+	font-family: 'Roboto', sans-serif;
+}
+/*  Start Header  */
+.container{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.container header h1{
+	font-size: 50px;
+}
+.container .search{
+    margin-left: 30%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+.container .search input{
+	background-color: #111111;
+	color: white;
+	border: none;
+	font-size: 20px;
+	padding: 6px;
+	font-family: 'Roboto', sans-serif;
+}
+/*  End Header  */
+/*  Start Search  */
+.contant .container {
+	background-color: #111111;
+	padding: 12px;
+	width: 760px;
+	margin-top: 20px;
+	font-size: 20px;
+
+}
+.contant .container span{
+	padding-right: 10px;
+	padding-left: 60px;
+	font-family: 'Roboto', sans-serif;
+}
+/*  End  Search */
+/*  Start Search Button  */
+.btn{
+	margin-top: 20px;
+	margin-left: 20%;
+}
+.btn .container button{
+	padding: 18px;
+	width: 300px;
+	background-color: rgb(255,84,6);
+	cursor: pointer;
+	color: white;
+	font-size: 25px;
+	border: none;   
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+/*  End Search Button  */
+/*  Start Team Legion  */
+.label .container{
+	background: #111111;
+	height: 90px;
+}
+.label .container h1{
+	font-size: 60px;
+	font-weight: 400;
+	padding: 4px;
+	padding-top: 10px;
+}
+.label .container h1 i{
+	margin-right: 10px;
+	float: right;
+}
+.label .container img{
+	width: 100px;
+	float: left;
+	margin-right: 20px;
+}
+/*  End Team Legion  */
+/*  Start Requirements  */
+.requirements .container{
+	background-color: #111111;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 820px;
+}
+.requirements .container p{
+	padding: 10px;
+	word-spacing: 7px;
+}
+/*  End Requirements  */
+/* Start Joining Team */
+.container .join{
+	margin-top: 0;
+	float: left;
+	margin-right: 100px;
+	width: 400px;
+}
+.container .join p{
+	background-color: #111111;
+	padding: 10px;
+}
+.container .join span{
+	margin-left: 20px;
+	color: rgb(255,84,6);
+}
+table{
+	border-spacing: 10px;
+	background-color: #111111;
+	margin-right: 90px;
+}
+table .icon{
+	color: rgb(255,84,6);
+	font-size: 40px;
+	padding-right: 10px;
+}
+table tr{
+	background-color: #111111;
+}
+/* End Joining Team */
+/*@media (min-width: 775px){
+	.container{
+		width: 750px;
+	}
+	.contant .container  {
+		font-size: 20px;
+	}
+	.contant .container span{
+		margin: 20px;
+	}
+}
+@media (min-width: 990px){
+	.container{
+		width: 970px;
+		margin-left: 30%;
+	}
+	.contant .container{
+		width: 800px;
+	}
+	.contant .container span{
+		margin-left: 35px;
+	}
+}
+@media (min-width: 1375px){
+	.container{
+		width: 1350px;
+	}
+}*/
